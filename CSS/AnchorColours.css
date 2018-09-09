@@ -1,0 +1,168 @@
+/**
+ * Anchor button colours
+ * Hexadecimal colour codes from: http://www.quackit.com/css/css_color_codes.cfm
+ */
+
+/*Basic CSS colors*/
+a.maroon{background-color: maroon;}
+a.red{background-color: red;}
+a.orange{background-color: #ffa500;}
+a.yellow{background-color: yellow;}
+a.olive{background-color: olive;}
+a.green{background-color: green;}
+a.purple{background-color: purple;}
+a.fuchsia{background-color: fuchsia;}
+a.lime{background-color: lime;}
+a.aqua{background-color: aqua;}
+a.blue{background-color: blue;}
+a.navy{background-color: navy;}
+a.black{background-color: black;}
+a.grey{background-color: gray;}
+a.silver{background-color: silver;}
+a.white{background-color: white;}
+
+/*Reds*/
+a.indianRed{background-color: #cd5c5c;}
+a.lightCoral{background-color: #f08080;}
+a.salmon{background-color: #fa8072;}
+a.darkSalmon{background-color: #e9967a;}
+a.lightSalmon{background-color: #ffa07a;}
+a.crimson{background-color: #dc143c;}
+a.fireBrick{background-color: #b22222;}
+a.darkRed{background-color: #8b0000;}
+
+/*Pinks*/
+a.pink{background-color: #ffc0cb;}
+a.lightPink{background-color: #ffb6c1;}
+a.hotPink{background-color: #ff69b4;}
+a.deepPink{background-color: #ff1493;}
+a.mediumVioletRed{background-color: #c71585;}
+a.paleVioletRed{background-color: #db7093;}
+
+/*Oranges*/
+a.coral{background-color: #ff7f50;}
+a.tomato{background-color: #ff6347;}
+a.orangeRed{background-color: #ff4500;}
+a.darkOrange{background-color: #ff8c00;}
+
+/*Yellow*/
+a.gold{background-color: #ffd700;}
+a.lightYellow{background-color: #ffffe0;}
+a.lemonChiffon{background-color: #fffacd;}
+a.lightGoldenrodYellow{background-color: #fafad2;}
+a.papayaaWhip{background-color: #ffefd5;}
+a.moccasin{background-color: #ffe4b5;}
+a.peachPuff{background-color: #ffdab9;}
+a.paleGoldenrod{background-color: #eee8aa;}
+a.khaki{background-color: #f0e68c;}
+a.darkKhaki{background-color: #bdb76b;}
+
+/*Purples*/
+a.lavender{background-color: #e6e6fa;}
+a.thistle{background-color: #d8bfd8;}
+a.plum{background-color: #dda0dd;}
+a.violet{background-color: #ee82ee;}
+a.orchid{background-color: #da70d6;}
+a.magenta{background-color: #ff00ff;}
+a.mediumOrchid{background-color: #ba55d3;}
+a.mediumPurple{background-color: #9370db;}
+a.blueViolet{background-color: #8a2be2;}
+a.darkViolet{background-color: #9400d3;}
+a.darkOrchid{background-color: #9932cc;}
+a.darkMagenta{background-color: #8b008b;}
+a.rebeccaPurple{background-color: #663399;}
+a.indigo{background-color: #4b0082;}
+a.mediumSlateBlue{background-color: #7b68ee;}
+a.slateBlue{background-color: #6a5acd;}
+a.darkSlateBlue{background-color: #483d8b;}
+
+/*Greens*/
+a.greenYellow{background-color: #ADFF2F;}
+a.chartreuse{background-color: #7FFF00;}
+a.lawnGreen{background-color: #7CFC00;}
+a.limeGreen{background-color: #32CD32;}
+a.paleGreen{background-color: #98FB98;}
+a.lightGreen{background-color: #90EE90;}
+a.mediumSpringGreen{background-color: #00FA9A;}
+a.springGreen{background-color: #00FF7F;}
+a.mediumSeaGreen{background-color: #3CB371;}
+a.seaGreen{background-color: #2E8B57;}
+a.forestGreen{background-color: #228B22;}
+a.darkGreen{background-color: #006400;}
+a.yellowGreen{background-color: #9ACD32;}
+a.oliveDrab{background-color: #6B8E23;}
+a.darkOliveGreen{background-color: #556B2F;}
+a.mediumAquamarine{background-color: #66CDAA;}
+a.darkSeaGreen{background-color: #8FBC8F;}
+a.lightSeaGreen{background-color: #20B2AA;}
+a.darkCyan{background-color: #008B8B;}
+a.teal{background-color: #008080;}
+
+/*Blues/Cyans*/
+a.cyan{background-color: #00FFFF;}
+a.lightCyan{background-color: #E0FFFF;}
+a.paleTurquoise{background-color: #AFEEEE;}
+a.aquamarine{background-color: #7FFFD4;}
+a.turquoise{background-color: #40E0D0;}
+a.mediumTurquoise{background-color: #48D1CC;}
+a.darkTurquoise{background-color: #00CED1;}
+a.cadetBlue{background-color: #5F9EA0;}
+a.steelBlue{background-color: #4682B4;}
+a.lightSteelBlue{background-color: #B0C4DE;}
+a.powderBlue{background-color: #B0E0E6;}
+a.lightBlue{background-color: #ADD8E6;}
+a.skyBlue{background-color: #87CEEB;}
+a.lightSkyBlue{background-color: #87CEFA;}
+a.deepSkyBlue{background-color: #00BFFF;}
+a.dodgerBlue{background-color: #1E90FF;}
+a.cornflowerBlue{background-color: #6495ED;}
+a.royalBlue{background-color: #4169E1;}
+a.mediumBlue{background-color: #0000CD;}
+a.darkBlue{background-color: #00008b;}
+a.midnightBlue{background-color: #191970;}
+
+/*Browns*/
+a.cornsilk{background-color: #FFF8DC;}
+a.blanchedAlmond{background-color: #FFEBCD;}
+a.bisque{background-color: #FFE4C4;}
+a.navajoWhite{background-color: #FFDEAD;}
+a.wheat{background-color: #F5DEB3;}
+a.burlyWood{background-color: #DEB887;}
+a.tan{background-color: #D2B48C;}
+a.rosyBrown{background-color: #BC8F8F;}
+a.sandyBrown{background-color: #F4A460;}
+a.goldenrod{background-color: #DAA520;}
+a.darkGoldenrod{background-color: #B8860B;}
+a.peru{background-color: #CD853F;}
+a.chocolate{background-color: #D2691E;}
+a.saddleBrown{background-color: #8B4513;}
+a.sienna{background-color: #A0522D;}
+a.brown{background-color: #A52A2A;}
+
+/*Whites*/
+a.snow{background-color: #FFFAFA;}
+a.honeydew{background-color: #F0FFF0;}
+a.mintCream{background-color: #F5FFFA;}
+a.azure{background-color: #F0FFFF;}
+a.aliceBlue{background-color: #F0F8FF;}
+a.ghostWhite{background-color: #F8F8FF;}
+a.whiteSmoke{background-color: #F5F5F5;}
+a.seashell{background-color: #FFF5EE;}
+a.beige{background-color: #F5F5DC;}
+a.oldLace{background-color: #FDF5E6;}
+a.floralWhite{background-color: #FFFAF0;}
+a.ivory{background-color: #FFFFF0;}
+a.antiqueWhite{background-color: #FAEBD7;}
+a.linen{background-color: #FAF0E6;}
+a.lavenderBlush{background-color: #FFF0F5;}
+a.mistyRose{background-color: #FFE4E1;}
+
+/*Greys*/
+a.gainsboro{background-color: #DCDCDC;}
+a.lightGray{background-color: #D3D3D3;}
+a.darkGray{background-color: #A9A9A9;}
+a.gray{background-color: #808080;}
+a.dimGray{background-color: #696969;}
+a.lightSlateGray{background-color: #778899;}
+a.slateGray{background-color: #708090;}
+a.darkSlateGray{background-color: #2F4F4F;}

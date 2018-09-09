@@ -1,0 +1,295 @@
+html:-webkit-full-screen, body:-webkit-full-screen{
+	width: 100%;
+}
+
+html:-moz-full-screen, body:-moz-full-screen{
+	width: 100%;
+}
+
+html:-ms-fullscreen, body:-ms-fullscreen{
+	width: 100%;
+}
+
+html:fullscreen, body:fullscreen{
+	width: 100%;
+}
+
+p.largerFont{
+	font-size: 30px;
+}
+
+.wordDisplay{
+	font-size: 100px;
+}
+
+p.bestScore{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 500px), only screen and (max-height: 580px){
+    p.largerFont{
+        font-size: 20px;
+    }
+    
+    h1{
+        font-size: 1.2em;
+    }
+    
+    h2{
+        font-size: 1em;
+        text-decoration: underline;
+    }
+    
+    a.button{
+        padding: 0.5em 1em;
+    }
+
+    .wordDisplay{
+        font-size: 70px;
+        margin: 0.3em 0.5em;
+    }
+    
+    p.bestScore{
+        font-size: 1em;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    p.largerFont{
+        font-size: 18px;
+    }
+    
+    h1{
+        font-size: 1.1em;
+    }
+    
+    #options a.button{
+        font-size: 0.8em;
+    }
+
+    .wordDisplay{
+        font-size: 50px;
+        margin: 0 0.3em;
+    }
+}
+
+@media only screen and (max-height: 530px){
+    h1, h2, h3, h4, h5, h6, p{
+        margin: 0.6em;
+    }
+    
+    html, body{
+        font-size: 16px;
+    }
+    
+    p.largerFont{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-height: 475px){
+    html, body{
+        font-size: 12px;
+    }
+    
+    p.largerFont{
+        font-size: 16px;
+    }
+}
+
+.fadeOutGame1{
+	animation-name: fadeOutGame;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+}
+@-webkit-keyframes fadeOutGame {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+@keyframes fadeOutGame {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+.fadeOutGame2{
+	animation-name: fadeOutGame;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+}
+
+.fadeOutGame3{
+	animation-name: fadeOutGame;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+}
+
+.fadeOutGame4{
+	animation-name: fadeOutGame;
+	animation-duration: 2.5s;
+	animation-timing-function: linear;
+}
+
+.fadeOutGame5{
+	animation-name: fadeOutGame;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+}
+
+.fadeOutGame6{
+	animation-name: fadeOutGame;
+	animation-duration: 1.5s;
+	animation-timing-function: linear;
+}
+
+.fadeOutGame7{
+	animation-name: fadeOutGame;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+}
+
+.fadeOutGame8{
+	animation-name: fadeOutGame;
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+}
+
+.timeBar{
+	border: 2px solid blue;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+@-webkit-keyframes timeBarDecrease {
+    from {width: 100%;}
+    to {width: 0%;}
+}
+@keyframes timeBarDecrease {
+    from {width: 100%;}
+    to {width: 0%;}
+}
+
+.timerBarDecrease1{
+	-webkit-animation-name: timeBarDecrease;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: linear;
+	animation-name: timeBarDecrease;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+}
+.timerBarDecrease2{
+	-webkit-animation-name: timeBarDecrease;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-timing-function: linear;
+	animation-name: timeBarDecrease;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+}
+.timerBarDecrease3{
+	-webkit-animation-name: timeBarDecrease;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: linear;
+	animation-name: timeBarDecrease;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+}
+.timerBarDecrease4{
+	-webkit-animation-name: timeBarDecrease;
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-timing-function: linear;
+	animation-name: timeBarDecrease;
+	animation-duration: 2.5s;
+	animation-timing-function: linear;
+}
+.timerBarDecrease5{
+	-webkit-animation-name: timeBarDecrease;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	animation-name: timeBarDecrease;
+	animation-duration: s;
+	animation-timing-function: linear;
+}
+.timerBarDecrease6{
+	-webkit-animation-name: timeBarDecrease;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-timing-function: linear;
+	animation-name: timeBarDecrease;
+	animation-duration: 1.5s;
+	animation-timing-function: linear;
+}
+.timerBarDecrease7{
+	-webkit-animation-name: timeBarDecrease;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	animation-name: timeBarDecrease;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+}
+.timerBarDecrease8{
+	-webkit-animation-name: timeBarDecrease;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: linear;
+	animation-name: timeBarDecrease;
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+}
+
+p.scoreLine{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.timerBarDecrease60s{
+	-webkit-animation-name: timeBarDecrease;
+	-webkit-animation-duration: 60s;
+	-webkit-animation-timing-function: linear;
+	animation-name: timeBarDecrease;
+	animation-duration: 60s;
+	animation-timing-function: linear;
+}
+
+/* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
+.dont-break-out {
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+
+}
+
+a.cwl_sukaato_iro{background-color: #3382c9;}
+a.cwl_sukaato_iro:hover{box-shadow: 0px 0px 15px 0px #3382c9;}
+a.cwl_akaishatsu_iro{background-color: #5e1830;}
+a.cwl_akaishatsu_iro:hover{box-shadow: 0px 0px 15px 0px #5e1830;}
+a.dutius_shatsu_iro{background-color: #e86e0e;}
+a.dutius_shatsu_iro:hover{box-shadow: 0px 0px 15px 0px #e86e0e;}
+a.altius_shatsu_iro{background-color: #73a21e;}
+a.altius_shatsu_iro:hover{box-shadow: 0px 0px 15px 0px #73a21e;}
+a.xinqie_someta_kami_iro{background-color: #a05762;}
+a.xinqie_someta_kami_iro:hover{box-shadow: 0px 0px 15px 0px #a05762;}
+a.xinqie_karada_no_iro_1{background-color: #bfa49b;}
+a.xinqie_karada_no_iro_1:hover{box-shadow: 0px 0px 15px 0px #bfa49b;}
+a.esther_citius_shatsu_iro{background-color: #0bb2e9;}
+a.esther_citius_shatsu_iro:hover{box-shadow: 0px 0px 15px 0px #0bb2e9;}
+a.kirei_shoujo_kiiro_shatsu_iro{background-color: #f2bd36;}
+a.kirei_shoujo_kiiro_shatsu_iro:hover{box-shadow: 0px 0px 15px 0px #f2bd36;}
+a.esther_pinku_shatsu_iro{background-color: #c75a79;}
+a.esther_pinku_shatsu_iro:hover{box-shadow: 0px 0px 15px 0px #c75a79;}
+a.esther_tomo_haiiro_shatsu_iro{background-color: #4f565c;}
+a.esther_tomo_haiiro_shatsu_iro:hover{box-shadow: 0px 0px 15px 0px #4f565c;}

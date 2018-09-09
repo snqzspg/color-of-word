@@ -1,0 +1,17 @@
+html, body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: url("../Cursor/aero-by-kennedyshu/Aero.gif"), url("../Cursor/aero-by-kennedyshu/Aero.cur"), url("Cursor/aero-by-kennedyshu/Aero.cur"), default;
+}
+
+a:link{
+	cursor: url("../Cursor/aero-by-kennedyshu/Aero-link-select.gif"), url("../Cursor/aero-by-kennedyshu/Aero link select.cur"), url("Cursor/aero-by-kennedyshu/Aero_link_select_ren.cur"), pointer;
+}
+
+a.button{
+	cursor: url("../Cursor/aero-by-kennedyshu/Aero.gif"), url("../Cursor/aero-by-kennedyshu/Aero.cur"), url("Cursor/aero-by-kennedyshu/Aero.cur"), default;
+}

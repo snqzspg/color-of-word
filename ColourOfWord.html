@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Colour of Word</title>
+		<link rel="shortcut icon" href="ColorOfWordIcon.ico" type="image/x-icon">
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<script type="text/javascript" src="jQuery/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="Fonts_en/Comfortaa/Comfortaa.css">
+		
+        <!-- Add to home screen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#fdf6c0">
+        <meta name="apple-mobile-web-app-title" content="Colour of Word">
+        <link rel="apple-touch-icon" href="ColorOfWordIcon.ico">
+        
+        <meta name="msapplication-TileImage" content="ColorOfWordIcon.ico">
+        <meta name="msapplication-TileColor" content="#fdf6c0">
+        
+        <link rel="manifest" href="/manifest.json">
+        
+		<style>
+			html, body{
+				background-color: #fdf6c0;
+				margin: 0;
+				padding: 0 1%;
+				font-size: 20px;
+				font-family: 'Comfortaa', sans-serif;
+			}
+			
+			h1, h2, h3, h4, h5, h6, p{
+				text-align: center;
+				margin: 1em;
+			}
+			
+			a{
+				color: black;
+				text-decoration: underline;
+			}
+			
+			a.button{
+				color: white;
+				text-decoration: none;
+				display: inline-block;
+				padding: 1em 1.5em;
+				border-radius: 10px;
+				transition: box-shadow 0.25s;
+			}
+			
+			a.button:hover{
+				transition: box-shadow 0.25s;
+			}
+			
+			a.chrome{background-color: #149f5b;}
+			a.opera{background-color: #ff1b2d;}
+			a.moz{background-color: #fcdf1b;}
+			a.ie{background-color: #82eeff;}
+			a.edge{background-color: #0079d7;}
+			a.chrome:hover{box-shadow: 0px 0px 15px 0px #149f5b;}
+			a.opera:hover{box-shadow: 0px 0px 15px 0px #ff1b2d;}
+			a.moz:hover{box-shadow: 0px 0px 15px 0px #fcdf1b;}
+			a.ie:hover{box-shadow: 0px 0px 15px 0px #82eeff;}
+			a.edge:hover{box-shadow: 0px 0px 15px 0px #0079d7;}
+		</style>
+		<link rel="stylesheet" type="text/css" href="CSS/AnchorColours.css">
+		<link rel="stylesheet" type="text/css" href="CSS/AnchorHoverColours.css">
+		<link rel="stylesheet" type="text/css" href="CSS/ElementStyles.css">
+		<link rel="stylesheet" type="text/css" href="CSS/NiceAnimations.css">
+		<link rel="stylesheet" type="text/css" href="CSS/OptionButtons.css">
+		<script type="text/javascript" src="Javascript/Cookies.js"></script>
+		<script type="text/javascript" src="Javascript/Variables.js"></script>
+		<script type="text/javascript" src="Javascript/GameText.js"></script>
+		<script type="text/javascript" src="Javascript/Gameplay.js"></script>
+		<script type="text/javascript" src="Javascript/TextElements.js"></script>
+		<script type="text/javascript" src="Javascript/StandardMode.js"></script>
+		<script type="text/javascript" src="Javascript/TimedMode.js"></script>
+		<script type="text/javascript" src="Javascript/Initialisation.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				$("#StartJSSeq").click(function(){
+					var animation = false,
+						animationstring = 'animation',
+						keyframeprefix = '',
+						domPrefixes = 'Webkit Moz O ms Khtml'.split(' '),
+						pfx  = '',
+						elm = document.createElement('div');
+
+					if(elm.style.animationName !== undefined){animation = true;}
+
+					if(animation === false){
+						for( var i = 0; i < domPrefixes.length; i++){
+							if( elm.style[ domPrefixes[i] + 'AnimationName' ] !== undefined ) {
+								pfx = domPrefixes[ i ];
+								animationstring = pfx + 'Animation';
+								keyframeprefix = '-' + pfx.toLowerCase() + '-';
+								animation = true;
+								break;
+							}
+						}
+					}
+					if(animation){
+						if(localStorage){
+							$("body").css({height: "100%", overflow: "auto"});
+							initialiseGame();
+							setUpMusic();
+						}
+					}
+				});
+				$(document).keypress(function(event){
+					var x = event.which;
+					if(x == keyCode[0] || x == 49){
+						inputAns(0);
+					}else if(x == keyCode[1] || x == 50){
+						inputAns(1);
+					}else if(x == keyCode[2] || x == 51){
+						inputAns(2);
+					}else if(x == keyCode[3] || x == 52){
+						inputAns(3);
+					}
+					if(document.getElementById("scoreDisplay")){
+						if(x == restartKeyCode){
+							standardMode();
+						}else if(x == backKeyCode){
+							initialiseGame();
+						}
+					}
+				});
+			});
+		</script>
+		<script type='text/javascript'>
+			WebFontConfig = {
+				google: { families: [ "Comfortaa:300,400,700:latin" ] }
+			};
+			(function() {
+				var wf = document.createElement("script");
+				wf.src = "GoogleFontJS/webfont.js";
+				wf.type = "text/javascript";
+				wf.async = "true";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(wf, s);
+			})(); 
+		</script>
+		<script type='text/javascript'>
+			WebFontConfig = {
+				google: { families: [ "Comfortaa:300,400,700:latin" ] }
+			};
+			(function() {
+				var wf = document.createElement("script");
+				wf.src = "GoogleFontJS/webfont.js";
+				wf.type = "text/javascript";
+				wf.async = "true";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(wf, s);
+			})(); 
+		</script>
+	</head>
+	<body bgcolor="#FDF6C0">
+		<audio id="BGMusic" autoplay></audio>
+		<h1 align="center">What is the Colour of The Word?</h1>
+		<p align="center">It is best to play this in full screen :)</p>
+		<p align="center"><a id="StartJSSeq" class="button coral" href="javascript: void(0);">Start Game</a></p>
+		<p align="center">This game requires jQuery, Javascript, HTML5 and CSS3 Animations to run properly. The game will only function if all boxes below are green or if the ticks are visible.</p>
+		<noscript><p align="center">You need to have Javascript enabled.</p></noscript>
+		<p align="center">
+			<img src="Resources/HTML5_Logo_256.gif" alt="HTML 5 Logo" width="200" height="200">
+			<abbr title="HTML5 Video Element Test (MP4 and OGG)">
+				<video width="200" height="200">
+					<source src="Resources/GreenTick.mp4" type="video/mp4">
+					<source src="Resources/GreenTick.ogv" type="video/ogg">
+					<img src="Resources/RedCross.gif" alt="Not Compatible" width="200" height="200">
+				</video>
+			</abbr>
+			<abbr title="Canvas Test (Requires Javascript)">
+				<canvas id="HTML5CanvasTest" style="background-color: limegreen; border-radius: 20px;" width="200" height="200">
+					<img src="Resources/RedCross.gif" alt="Not Compatible" width="200" height="200">
+				</canvas>
+				<script>
+					<!--
+						var HTML5CanvasTest = document.getElementById("HTML5CanvasTest");
+						var CTX = HTML5CanvasTest.getContext("2d");
+						CTX.moveTo(18, 96);
+						CTX.lineTo(77, 155);
+						CTX.strokeStyle = "#ffffff";
+						CTX.lineWidth = 25;
+						CTX.stroke();
+						CTX.moveTo(181, 35);
+						CTX.lineTo(60, 156);
+						CTX.stroke();
+					-->
+				</script>
+			</abbr>
+			<abbr title="HTML5 Local Storage Test (Requires Javascript)">
+				<img id="localStorageTest" src="Resources/RedCross.gif" alt="Not Compatible" width="200" height="200">
+				<script>
+					<!--
+						if(localStorage){
+							document.getElementById("localStorageTest").src = "Resources/GreenTick.gif";
+						}
+					-->
+				</script>
+			</abbr>
+		</p>
+		<p align="center">
+			<img src="Resources/JSLogo200.jpg" alt="Javascript Logo" width="200" height="200">
+			<abbr title="Document Object Model (DOM) Test"><img id="DOMTest" src="Resources/RedCross.gif" alt="Not Compatible" width="200" height="200"></abbr>
+			<script type="text/javascript">
+				<!--
+					document.getElementById("DOMTest").src = "Resources/GreenTick.gif";
+				-->
+			</script>
+			<abbr title="addEventListener Test"><img id="AELTest" src="Resources/RedCross.gif" alt="Not Compatible" width="200" height="200"></abbr>
+			<script type="text/javascript">
+				<!--
+					window.addEventListener("load", function(){
+						document.getElementById("AELTest").src = "Resources/GreenTick.gif";
+					});
+				-->
+			</script>
+			<abbr title="addEventListener + attachEvent Test"><img id="AELAETest" src="Resources/RedCross.gif" alt="Not Compatible" width="200" height="200"></abbr>
+			<script type="text/javascript">
+				<!--
+					if(window.addEventListener){
+						window.addEventListener("load", function(){
+							document.getElementById("AELAETest").src = "Resources/GreenTick.gif";
+						});	
+					}else if(window.attachEvent){
+						window.attachEvent("onload", function(){
+							document.getElementById("AELAETest").src = "Resources/GreenTick.gif";
+						});	
+					}
+				-->
+			</script>
+		</p>
+		<p align="center">
+			<a href="http://jquery.com/" target="_blank"><img src="Resources/jQureryLogo.gif" alt="jQuery Logo" width="200" height="200"></a>
+			<abbr title="$(document).ready() Test"><img id="jQDRTest" src="Resources/RedCross.gif" alt="Not Compatible" width="200" height="200"></abbr>
+			<script type="text/javascript">
+				<!--
+					$(document).ready(function(){
+						$("#jQDRTest").attr("src", "Resources/GreenTick.gif");
+					});
+				-->
+			</script>
+		</p>
+		<p align="center">
+			<img src="Resources/CSS3Logo.gif" alt="CSS3 Logo" width="200" height="200">
+			<abbr title="CSS3 Animations Test (Requires Javascript)"><img id="cssAniTest" src="Resources/RedCross.gif" alt="Not Compatible" width="200" height="200"></abbr>
+			<script>
+				<!--
+					(function(){
+						var animation = false,
+							animationstring = 'animation',
+							keyframeprefix = '',
+							domPrefixes = 'Webkit Moz O ms Khtml'.split(' '),
+							pfx  = '',
+							elm = document.createElement('div');
+
+						if(elm.style.animationName !== undefined){animation = true;document.getElementById("cssAniTest").src = "Resources/GreenTick.gif";}
+
+						if(animation === false){
+							for( var i = 0; i < domPrefixes.length; i++){
+								if( elm.style[ domPrefixes[i] + 'AnimationName' ] !== undefined ) {
+									pfx = domPrefixes[ i ];
+									animationstring = pfx + 'Animation';
+									keyframeprefix = '-' + pfx.toLowerCase() + '-';
+									animation = true;
+									document.getElementById("cssAniTest").src = "Resources/GreenTick.gif";
+									break;
+								}
+							}
+						}
+					})();
+				-->
+			</script>
+		</p>
+		<p align="center">
+			<a class="button darkOrange" href="https://html5test.com/" target="_blank">
+				<img src="Resources/HTML5_Logo_256.gif" alt="HTML 5 Logo" width="200" height="200">
+				<br>Take the HTML5 Test
+			</a>
+			<a class="button deepSkyBlue" href="http://css3test.com/" target="_blank">
+				<img src="Resources/CSS3Logo.gif" alt="CSS3 Logo" width="200" height="200">
+				<br>Take the CSS3 Test
+			</a>
+		</p>
+		<p align="center">
+			<a class="button violet" href="http://acid3.acidtests.org/" target="_blank">
+				Take the Acid3 Test
+			</a>
+		</p>
+		<p align="center">These are the supported browsers: </p>
+		<p align="center">
+			<a class="button edge" href="https://www.microsoft.com/windows/microsoft-edge">Microsoft Edge</a>
+			<a class="button ie" href="https://www.microsoft.com/download/Internet-Explorer-11-for-Windows-7-details.aspx">Internet Explorer 10+</a>
+			<a class="button moz" href="https://www.mozilla.org/firefox/new/">Mozilla Firefox</a>
+			<a class="button opera" href="http://www.opera.com/">Opera</a>
+			<a class="button chrome" href="https://www.google.com/chrome/">Google Chrome</a>
+		</p>
+	</body>
+</html>

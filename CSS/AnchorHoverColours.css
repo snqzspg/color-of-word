@@ -1,0 +1,168 @@
+/**
+ * Anchor button colours
+ * Hexadecimal colour codes from: http://www.quackit.com/css/css_color_codes.cfm
+ */
+
+/*Basic CSS colors*/
+a.maroon:hover{box-shadow: 0px 0px 15px 0px maroon;}
+a.red:hover{box-shadow: 0px 0px 15px 0px red;}
+a.orange:hover{box-shadow: 0px 0px 15px 0px #ffa500;}
+a.yellow:hover{box-shadow: 0px 0px 15px 0px yellow;}
+a.olive:hover{box-shadow: 0px 0px 15px 0px olive;}
+a.green:hover{box-shadow: 0px 0px 15px 0px green;}
+a.purple:hover{box-shadow: 0px 0px 15px 0px purple;}
+a.fuchsia:hover{box-shadow: 0px 0px 15px 0px fuchsia;}
+a.lime:hover{box-shadow: 0px 0px 15px 0px lime;}
+a.aqua:hover{box-shadow: 0px 0px 15px 0px aqua;}
+a.blue:hover{box-shadow: 0px 0px 15px 0px blue;}
+a.navy:hover{box-shadow: 0px 0px 15px 0px navy;}
+a.black:hover{box-shadow: 0px 0px 15px 0px black;}
+a.grey:hover{box-shadow: 0px 0px 15px 0px gray;}
+a.silver:hover{box-shadow: 0px 0px 15px 0px silver;}
+a.white:hover{box-shadow: 0px 0px 15px 0px white;}
+
+/*Reds*/
+a.indianRed:hover{box-shadow: 0px 0px 15px 0px #cd5c5c;}
+a.lightCoral:hover{box-shadow: 0px 0px 15px 0px #f08080;}
+a.salmon:hover{box-shadow: 0px 0px 15px 0px #fa8072;}
+a.darkSalmon:hover{box-shadow: 0px 0px 15px 0px #e9967a;}
+a.lightSalmon:hover{box-shadow: 0px 0px 15px 0px #ffa07a;}
+a.crimson:hover{box-shadow: 0px 0px 15px 0px #dc143c;}
+a.fireBrick:hover{box-shadow: 0px 0px 15px 0px #b22222;}
+a.darkRed:hover{box-shadow: 0px 0px 15px 0px #8b0000;}
+
+/*Pinks*/
+a.pink:hover{box-shadow: 0px 0px 15px 0px #ffc0cb;}
+a.lightPink:hover{box-shadow: 0px 0px 15px 0px #ffb6c1;}
+a.hotPink:hover{box-shadow: 0px 0px 15px 0px #ff69b4;}
+a.deepPink:hover{box-shadow: 0px 0px 15px 0px #ff1493;}
+a.mediumVioletRed:hover{box-shadow: 0px 0px 15px 0px #c71585;}
+a.paleVioletRed:hover{box-shadow: 0px 0px 15px 0px #db7093;}
+
+/*Oranges*/
+a.coral:hover{box-shadow: 0px 0px 15px 0px #ff7f50;}
+a.tomato:hover{box-shadow: 0px 0px 15px 0px #ff6347;}
+a.orangeRed:hover{box-shadow: 0px 0px 15px 0px #ff4500;}
+a.darkOrange:hover{box-shadow: 0px 0px 15px 0px #ff8c00;}
+
+/*Yellow*/
+a.gold:hover{box-shadow: 0px 0px 15px 0px #ffd700;}
+a.lightYellow:hover{box-shadow: 0px 0px 15px 0px #ffffe0;}
+a.lemonChiffon:hover{box-shadow: 0px 0px 15px 0px #fffacd;}
+a.lightGoldenrodYellow:hover{box-shadow: 0px 0px 15px 0px #fafad2;}
+a.papayaaWhip:hover{box-shadow: 0px 0px 15px 0px #ffefd5;}
+a.moccasin:hover{box-shadow: 0px 0px 15px 0px #ffe4b5;}
+a.peachPuff:hover{box-shadow: 0px 0px 15px 0px #ffdab9;}
+a.paleGoldenrod:hover{box-shadow: 0px 0px 15px 0px #eee8aa;}
+a.khaki:hover{box-shadow: 0px 0px 15px 0px #f0e68c;}
+a.darkKhaki:hover{box-shadow: 0px 0px 15px 0px #bdb76b;}
+
+/*Purples*/
+a.lavender:hover{box-shadow: 0px 0px 15px 0px #e6e6fa;}
+a.thistle:hover{box-shadow: 0px 0px 15px 0px #d8bfd8;}
+a.plum:hover{box-shadow: 0px 0px 15px 0px #dda0dd;}
+a.violet:hover{box-shadow: 0px 0px 15px 0px #ee82ee;}
+a.orchid:hover{box-shadow: 0px 0px 15px 0px #da70d6;}
+a.magenta:hover{box-shadow: 0px 0px 15px 0px #ff00ff;}
+a.mediumOrchid:hover{box-shadow: 0px 0px 15px 0px #ba55d3;}
+a.mediumPurple:hover{box-shadow: 0px 0px 15px 0px #9370db;}
+a.blueViolet:hover{box-shadow: 0px 0px 15px 0px #8a2be2;}
+a.darkViolet:hover{box-shadow: 0px 0px 15px 0px #9400d3;}
+a.darkOrchid:hover{box-shadow: 0px 0px 15px 0px #9932cc;}
+a.darkMagenta:hover{box-shadow: 0px 0px 15px 0px #8b008b;}
+a.rebeccaPurple:hover{box-shadow: 0px 0px 15px 0px #663399;}
+a.indigo:hover{box-shadow: 0px 0px 15px 0px #4b0082;}
+a.mediumSlateBlue:hover{box-shadow: 0px 0px 15px 0px #7b68ee;}
+a.slateBlue:hover{box-shadow: 0px 0px 15px 0px #6a5acd;}
+a.darkSlateBlue:hover{box-shadow: 0px 0px 15px 0px #483d8b;}
+
+/*Greens*/
+a.greenYellow:hover{box-shadow: 0px 0px 15px 0px ADFF2F;}
+a.chartreuse:hover{box-shadow: 0px 0px 15px 0px 7FFF00;}
+a.lawnGreen:hover{box-shadow: 0px 0px 15px 0px #7CFC00;}
+a.limeGreen:hover{box-shadow: 0px 0px 15px 0px #32CD32;}
+a.paleGreen:hover{box-shadow: 0px 0px 15px 0px #98FB98;}
+a.lightGreen:hover{box-shadow: 0px 0px 15px 0px #90EE90;}
+a.mediumSpringGreen:hover{box-shadow: 0px 0px 15px 0px #00FA9A;}
+a.springGreen:hover{box-shadow: 0px 0px 15px 0px #00FF7F;}
+a.mediumSeaGreen:hover{box-shadow: 0px 0px 15px 0px #3CB371;}
+a.seaGreen:hover{box-shadow: 0px 0px 15px 0px #2E8B57;}
+a.forestGreen:hover{box-shadow: 0px 0px 15px 0px #228B22;}
+a.darkGreen:hover{box-shadow: 0px 0px 15px 0px #006400;}
+a.yellowGreen:hover{box-shadow: 0px 0px 15px 0px #9ACD32;}
+a.oliveDrab:hover{box-shadow: 0px 0px 15px 0px #6B8E23;}
+a.darkOliveGreen:hover{box-shadow: 0px 0px 15px 0px #556B2F;}
+a.mediumAquamarine:hover{box-shadow: 0px 0px 15px 0px #66CDAA;}
+a.darkSeaGreen:hover{box-shadow: 0px 0px 15px 0px #8FBC8F;}
+a.lightSeaGreen:hover{box-shadow: 0px 0px 15px 0px #20B2AA;}
+a.darkCyan:hover{box-shadow: 0px 0px 15px 0px #008B8B;}
+a.teal:hover{box-shadow: 0px 0px 15px 0px #008080;}
+
+/*Blues/Cyans*/
+a.cyan:hover{box-shadow: 0px 0px 15px 0px #00FFFF;}
+a.lightCyan:hover{box-shadow: 0px 0px 15px 0px #E0FFFF;}
+a.paleTurquoise:hover{box-shadow: 0px 0px 15px 0px #AFEEEE;}
+a.aquamarine:hover{box-shadow: 0px 0px 15px 0px #7FFFD4;}
+a.turquoise:hover{box-shadow: 0px 0px 15px 0px #40E0D0;}
+a.mediumTurquoise:hover{box-shadow: 0px 0px 15px 0px #48D1CC;}
+a.darkTurquoise:hover{box-shadow: 0px 0px 15px 0px #00CED1;}
+a.cadetBlue:hover{box-shadow: 0px 0px 15px 0px #5F9EA0;}
+a.steelBlue:hover{box-shadow: 0px 0px 15px 0px #4682B4;}
+a.lightSteelBlue:hover{box-shadow: 0px 0px 15px 0px #B0C4DE;}
+a.powderBlue:hover{box-shadow: 0px 0px 15px 0px #B0E0E6;}
+a.lightBlue:hover{box-shadow: 0px 0px 15px 0px #ADD8E6;}
+a.skyBlue:hover{box-shadow: 0px 0px 15px 0px #87CEEB;}
+a.lightSkyBlue:hover{box-shadow: 0px 0px 15px 0px #87CEFA;}
+a.deepSkyBlue:hover{box-shadow: 0px 0px 15px 0px #00BFFF;}
+a.dodgerBlue:hover{box-shadow: 0px 0px 15px 0px #1E90FF;}
+a.cornflowerBlue:hover{box-shadow: 0px 0px 15px 0px #6495ED;}
+a.royalBlue:hover{box-shadow: 0px 0px 15px 0px #4169E1;}
+a.mediumBlue:hover{box-shadow: 0px 0px 15px 0px #0000CD;}
+a.darkBlue:hover{box-shadow: 0px 0px 15px 0px #00008b;}
+a.midnightBlue:hover{box-shadow: 0px 0px 15px 0px #191970;}
+
+/*Browns*/
+a.cornsilk:hover{box-shadow: 0px 0px 15px 0px #FFF8DC;}
+a.blanchedAlmond:hover{box-shadow: 0px 0px 15px 0px #FFEBCD;}
+a.bisque:hover{box-shadow: 0px 0px 15px 0px #FFE4C4;}
+a.navajoWhite:hover{box-shadow: 0px 0px 15px 0px #FFDEAD;}
+a.wheat:hover{box-shadow: 0px 0px 15px 0px #F5DEB3;}
+a.burlyWood:hover{box-shadow: 0px 0px 15px 0px #DEB887;}
+a.tan:hover{box-shadow: 0px 0px 15px 0px #D2B48C;}
+a.rosyBrown:hover{box-shadow: 0px 0px 15px 0px #BC8F8F;}
+a.sandyBrown:hover{box-shadow: 0px 0px 15px 0px #F4A460;}
+a.goldenrod:hover{box-shadow: 0px 0px 15px 0px #DAA520;}
+a.darkGoldenrod:hover{box-shadow: 0px 0px 15px 0px #B8860B;}
+a.peru:hover{box-shadow: 0px 0px 15px 0px #CD853F;}
+a.chocolate:hover{box-shadow: 0px 0px 15px 0px #D2691E;}
+a.saddleBrown:hover{box-shadow: 0px 0px 15px 0px #8B4513;}
+a.sienna:hover{box-shadow: 0px 0px 15px 0px #A0522D;}
+a.brown:hover{box-shadow: 0px 0px 15px 0px #A52A2A;}
+
+/*Whites*/
+a.snow:hover{box-shadow: 0px 0px 15px 0px #FFFAFA;}
+a.honeydew:hover{box-shadow: 0px 0px 15px 0px #F0FFF0;}
+a.mintCream:hover{box-shadow: 0px 0px 15px 0px #F5FFFA;}
+a.azure:hover{box-shadow: 0px 0px 15px 0px #F0FFFF;}
+a.aliceBlue:hover{box-shadow: 0px 0px 15px 0px #F0F8FF;}
+a.ghostWhite:hover{box-shadow: 0px 0px 15px 0px #F8F8FF;}
+a.whiteSmoke:hover{box-shadow: 0px 0px 15px 0px #F5F5F5;}
+a.seashell:hover{box-shadow: 0px 0px 15px 0px #FFF5EE;}
+a.beige:hover{box-shadow: 0px 0px 15px 0px #F5F5DC;}
+a.oldLace:hover{box-shadow: 0px 0px 15px 0px #FDF5E6;}
+a.floralWhite:hover{box-shadow: 0px 0px 15px 0px #FFFAF0;}
+a.ivory:hover{box-shadow: 0px 0px 15px 0px #FFFFF0;}
+a.antiqueWhite:hover{box-shadow: 0px 0px 15px 0px #FAEBD7;}
+a.linen:hover{box-shadow: 0px 0px 15px 0px #FAF0E6;}
+a.lavenderBlush:hover{box-shadow: 0px 0px 15px 0px #FFF0F5;}
+a.mistyRose:hover{box-shadow: 0px 0px 15px 0px #FFE4E1;}
+
+/*Greys*/
+a.gainsboro:hover{box-shadow: 0px 0px 15px 0px #DCDCDC;}
+a.lightGray:hover{box-shadow: 0px 0px 15px 0px #D3D3D3;}
+a.darkGray:hover{box-shadow: 0px 0px 15px 0px #A9A9A9;}
+a.gray:hover{box-shadow: 0px 0px 15px 0px #808080;}
+a.dimGray:hover{box-shadow: 0px 0px 15px 0px #696969;}
+a.lightSlateGray:hover{box-shadow: 0px 0px 15px 0px #778899;}
+a.slateGray:hover{box-shadow: 0px 0px 15px 0px #708090;}
+a.darkSlateGray:hover{box-shadow: 0px 0px 15px 0px #2F4F4F;}
