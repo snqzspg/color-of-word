@@ -1,0 +1,45 @@
+﻿[Arrow]
+Path=Aero.cur
+
+[AppStarting]
+Path=Aero working.ani
+
+[Help]
+Path=Aero help select.cur
+
+[Wait]
+Path=Aero busy.cur
+
+[UpArrow]
+Path=Aero alternate select.ani
+
+[SizeNWSE]
+Path=Aero diagonal resize \.ani
+
+[SizeNESW]
+Path=Aero diagonal resize /.ani
+
+[SizeNS]
+Path=Aero vertical resize.ani
+
+[SizeWE]
+Path=Aero horizontal resize.ani
+
+[SizeAll]
+Path=Aero move.ani
+
+[Hand]
+Path=Aero link select.cur
+
+[Crosshair]
+Path=Aero precision select.cur
+
+[NWPen]
+Path=Aero handwriting.cur
+
+[IBeam]
+Path=Aero text select.cur
+
+[No]
+Path=Aero unavailable.cur
+
